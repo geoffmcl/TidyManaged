@@ -3,3 +3,8 @@ bin
 *.userprefs
 *.pidb
 TestHarness
+.vs/*
+Backup/*
+*.user
+obj/*
+UpgradeLog.htm
