@@ -16,7 +16,7 @@ Otherwise, grab the latest source from the [GitHub HTML TIdy](https://github.com
 
 ## Sample Usage
 
-Here's a quick'n'dirty example using a simple console app. Note: always remember to .Dispose() of your Document instance (or wrap it in a "using" statement), so the interop layer can clean up any unmanaged resources (memory, file handles etc) when done cleaning. See the Test1/Program.cs sample.
+Here's a quick'n'dirty example using a simple console app. Note: always remember to .Dispose() of your Document instance (or wrap it in a "using" statement), so the interop layer can clean up any unmanaged resources (memory, file handles etc) when done cleaning. See the [Test1/Program.cs](Test1/Program.cs) sample.
     
 If this is run in a console, will results in an output:
 
@@ -61,7 +61,7 @@ At this stage, 2009, I've just created a basic mapping of each of the configurat
 
 At some point I'll add a nicer ".NET-style" API layer over the top, as it's a bit clunky (although perfectly usable) at the moment.
 
-It should also be noted this 2009 release naturally only matches exactly the 2009 API of **`libtidy`**. It has been noted another fork, [frandi/TidyHtml5Managed}(https://github.com/frandi/TidyHtml5Managed/tree/master) has tried to incorporate some of the later features and options of tidy. This is always an ongoing problem, keeping this `TidyManaged` completely in sync with **`libtidy`** progression! Maybe other forks have progressed this further...
+It should also be noted this 2009 release naturally only matches exactly the 2009 API of **`libtidy`**. It has been noted another fork, [frandi/TidyHtml5Managed](https://github.com/frandi/TidyHtml5Managed/tree/master) has tried to incorporate some of the later features and options of tidy. This is always an ongoing problem, keeping this `TidyManaged` completely in sync with **`libtidy`** progression! Maybe other forks have progressed this further...
 
 There would certainly could be a scripted way to read current `tidy` configuration, and generate the appropriate `p/Invoke` source file(s), ready for a quick re-compile...
 
