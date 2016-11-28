@@ -10,3 +10,4 @@ obj/*
 UpgradeLog.htm
 Test1/bin/*
 Test1/obj/*
+*.bak
