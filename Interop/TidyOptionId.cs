@@ -113,8 +113,8 @@ namespace TidyManaged.Interop
 		TidyNCRNotUsed,
 #endif
 #if SUPPORT_UTF16_ENCODINGS
-		TidyOutputBOM,      /**< Output a Byte Order Mark (BOM) for UTF-16 encodings */
-		                    /**< auto: if input stream has BOM, we output a BOM */
+		TidyOutputBOM,      /*< Output a Byte Order Mark (BOM) for UTF-16 encodings */
+		                    /*< auto: if input stream has BOM, we output a BOM */
 #else
 		TidyOutputBOMNotUsed,
 #endif
